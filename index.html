@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản Lý Chi Tiêu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quản Lý Chi Tiêu</h1>
+    <div class="expense-form">
+      <input type="text" id="description" placeholder="Mô tả chi tiêu" autocomplete="off" />
+      <input type="number" id="amount" placeholder="Số tiền" autocomplete="off" />
+      <button id="add-expense">Thêm</button>
+    </div>
+    <div class="expense-list">
+      <h2>Danh Sách Chi Tiêu</h2>
+      <ul id="expense-list"></ul>
+    </div>
+    <div class="total">
+      <h3>Tổng Chi Tiêu: <span id="total-amount">0</span> VND</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
